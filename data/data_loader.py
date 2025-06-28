@@ -22,5 +22,5 @@ def count_images(base_dir="data/images"):
     """
     image_map = get_image_paths(base_dir)
     total = sum(len(paths) for paths in image_map.values())
-    print(f"Total images found: {total}")
+    print(f"Total images found : {total}")
     return total
